@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Guru99.InvalidData">
+        <methods>
+          <include name="InvalidName"/>
+          <include name="BrowerOpen"/>
+          <include name="CloseBrowser"/>
+          <include name="Invalidpass"/>
+          <include name="InvalidBoth"/>
+        </methods>
+      </class> <!-- Guru99.InvalidData -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
